@@ -6,9 +6,9 @@ class JobOffer(models.Model):
     company_email = models.EmailField()
     job_title = models.CharField(max_length=100)
     job_description = models.TextField()
-    salary = models.PositiveIntegerField()
-    prefectures = models.CharField(max_length=100)
-    city = models.CharField
+    job_salary = models.PositiveIntegerField()
+    job_prefectures = models.CharField(max_length=100)
+    job_city = models.CharField(max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
     
     """

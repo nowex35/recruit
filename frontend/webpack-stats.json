@@ -36,12 +36,6 @@
       "publicPath": "http://127.0.0.1:8080/fonts/materialdesignicons-webfont.d671cbf6.woff",
       "sourceFilename": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff?v=5.9.55"
     },
-    "img/logo.63028820.svg": {
-      "name": "img/logo.63028820.svg",
-      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\img\\logo.63028820.svg",
-      "publicPath": "http://127.0.0.1:8080/img/logo.63028820.svg",
-      "sourceFilename": "src/assets/logo.svg"
-    },
     "index.html": {
       "name": "index.html",
       "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\index.html",

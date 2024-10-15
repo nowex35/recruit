@@ -1,0 +1,55 @@
+<template>
+  <div>
+    <v-container>
+      <h1>Job Board</h1>
+      <div v-for="job in jobs" :key="job.pk">
+        <h2>
+          <router-link
+            :to="{ name: 'JobView', params: { id: job.id } }"
+            class="job-link"
+            >{{ job.company_name }}
+          </router-link>
+        </h2>
+        <p>{{ job.job_title }}</p>
+        <!-- hrは水平線タグ -->
+        <hr />
+      </div>
+    </v-container>
+  </div>
+</template>
+
+<script>
+import { apiService } from "../common/api.service.js";
+export default {
+  name: "HomeView",
+  data() {
+    return {
+      jobs: [],
+    };
+  },
+  methods: {
+    getJobs() {
+      let endpoint = "api/jobs/";
+      apiService(endpoint).then((data) => {
+        this.jobs.push(...data.results);
+      });
+    },
+  },
+  created() {
+    this.getJobs();
+    document.title = "Job Board";
+  },
+};
+</script>
+
+<style scoped>
+.job-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.job-link:hover {
+  color: #41b883;
+}
+</style>
