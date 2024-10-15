@@ -1,0 +1,62 @@
+{
+  "status": "done",
+  "assets": {
+    "bundle.js": {
+      "name": "bundle.js",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\bundle.js",
+      "publicPath": "http://127.0.0.1:8080/bundle.js"
+    },
+    "favicon.ico": {
+      "name": "favicon.ico",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\favicon.ico",
+      "publicPath": "http://127.0.0.1:8080/favicon.ico",
+      "sourceFilename": "public/favicon.ico"
+    },
+    "fonts/materialdesignicons-webfont.21f691f0.ttf": {
+      "name": "fonts/materialdesignicons-webfont.21f691f0.ttf",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\fonts\\materialdesignicons-webfont.21f691f0.ttf",
+      "publicPath": "http://127.0.0.1:8080/fonts/materialdesignicons-webfont.21f691f0.ttf",
+      "sourceFilename": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf?v=5.9.55"
+    },
+    "fonts/materialdesignicons-webfont.54b0f60d.woff2": {
+      "name": "fonts/materialdesignicons-webfont.54b0f60d.woff2",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\fonts\\materialdesignicons-webfont.54b0f60d.woff2",
+      "publicPath": "http://127.0.0.1:8080/fonts/materialdesignicons-webfont.54b0f60d.woff2",
+      "sourceFilename": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=5.9.55"
+    },
+    "fonts/materialdesignicons-webfont.5d875350.eot": {
+      "name": "fonts/materialdesignicons-webfont.5d875350.eot",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\fonts\\materialdesignicons-webfont.5d875350.eot",
+      "publicPath": "http://127.0.0.1:8080/fonts/materialdesignicons-webfont.5d875350.eot",
+      "sourceFilename": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot?v=5.9.55"
+    },
+    "fonts/materialdesignicons-webfont.d671cbf6.woff": {
+      "name": "fonts/materialdesignicons-webfont.d671cbf6.woff",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\fonts\\materialdesignicons-webfont.d671cbf6.woff",
+      "publicPath": "http://127.0.0.1:8080/fonts/materialdesignicons-webfont.d671cbf6.woff",
+      "sourceFilename": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff?v=5.9.55"
+    },
+    "img/logo.63028820.svg": {
+      "name": "img/logo.63028820.svg",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\img\\logo.63028820.svg",
+      "publicPath": "http://127.0.0.1:8080/img/logo.63028820.svg",
+      "sourceFilename": "src/assets/logo.svg"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\index.html",
+      "publicPath": "http://127.0.0.1:8080/index.html"
+    },
+    "js/webfontloader.js": {
+      "name": "js/webfontloader.js",
+      "path": "C:\\Users\\nowex\\Desktop\\recruit\\frontend\\dist\\js\\webfontloader.js",
+      "publicPath": "http://127.0.0.1:8080/js/webfontloader.js"
+    }
+  },
+  "chunks": {
+    "app": [
+      "bundle.js"
+    ]
+  },
+  "publicPath": "http://127.0.0.1:8080/"
+}
