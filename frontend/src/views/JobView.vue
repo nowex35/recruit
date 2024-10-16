@@ -8,6 +8,14 @@
       <p>給料: {{ job.job_salary }}</p>
       <p>都道府県: {{ job.job_prefectures }}</p>
       <p>市町村: {{ job.job_city }}</p>
+      <v-btn
+        color="success"
+        class="mr-2"
+        :to="{ name: 'JobEditorView', params: { id: job.id } }"
+      >
+        編集
+      </v-btn>
+      <v-btn color="error" @click="deleteJobData"> 削除 </v-btn>
     </v-container>
     <v-container v-else>
       <p>Loading...</p>
@@ -46,6 +54,16 @@ export default {
         })
         .catch((error) => {
           console.log("API error", error);
+        });
+    },
+    deleteJobData() {
+      let endpoint = `/api/jobs/${this.id}/`;
+      apiService(endpoint, "DELETE")
+        .then(() => {
+          this.$router.push({ name: "HomeView" });
+        })
+        .catch((error) => {
+          console.error("Error while deleting job data:", error);
         });
     },
   },

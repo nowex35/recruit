@@ -5,6 +5,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue"; // ホームページ用のコンポーネント
 import JobView from "../views/JobView.vue"; // ジョブ詳細ページ用のコンポーネント
 
+import JobEditorView from "../views/JobEditorView.vue";
+
 // ルート定義の配列
 const routes = [
   {
@@ -21,6 +23,12 @@ const routes = [
     // props オプションを使用して、ルートパラメータをコンポーネントに渡す
     // 'id' パラメータを Number 型に変換して渡す（ルートパラメータは通常文字列）
     props: (route) => ({ id: Number(route.params.id) }),
+  },
+  {
+    path: "/editor",
+    name: "JobEditorView",
+    component: JobEditorView,
+    props: true,
   },
 ];
 
